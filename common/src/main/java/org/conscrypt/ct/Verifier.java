@@ -31,7 +31,7 @@ public class Verifier {
     private final LogStore store;
 
     public Verifier(LogStore store) {
-        this.store = store;
+        this.store=store;
     }
 
     public VerificationResult verifySignedCertificateTimestamps(List<X509Certificate> chain,
